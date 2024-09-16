@@ -1,0 +1,22 @@
+.box {
+  flex: 1 1 calc(33.333% - 20px); /* Flex-grow and basis, with space for gaps */
+  border: 1px solid #6e6d6d;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #cadce2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+pre {
+  margin: 10; /* Remove default margin from <pre> */
+  white-space: pre-wrap; /* Allow the content to wrap */
+  overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Padding around the container */
+}
